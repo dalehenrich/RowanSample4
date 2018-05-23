@@ -1,0 +1,8 @@
+RwProjectCompoundConfiguration{
+	#name : 'Default',
+	#packageNames : Set [ ],
+	#configurationNames : [
+		'Test'
+	],
+	#comment : 'The Default configuration is currently loaded by default when using Jadeite. If you don't wan to load the tests, change this file to load Common.'
+}

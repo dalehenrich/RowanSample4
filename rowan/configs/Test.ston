@@ -1,0 +1,10 @@
+RwProjectCompoundConfiguration{
+	#name : 'Test',
+	#packageNames : [
+		'RowanSample4-Tests'
+	],
+	#configurationNames : [ 
+		'Common'
+	],
+	#comment : 'Platform independent Test packages.'
+}
