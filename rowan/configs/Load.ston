@@ -36,7 +36,9 @@
 			'default_load' : {
 				#defaultSymbolDictName : 'RowanSample4SymbolDict',
 				#defaultUseSessionMethodsForExtensions : false,
-				#packageNameToPlatformPropertiesMap : {}
+				#packageNameToPlatformPropertiesMap : {
+					'RowanSample4-GemStone' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+				}
 			}
 		},
 	#comment : ''
