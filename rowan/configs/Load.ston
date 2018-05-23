@@ -38,6 +38,7 @@
 				#defaultUseSessionMethodsForExtensions : false,
 				#packageNameToPlatformPropertiesMap : {
 					'RowanSample4-GemStone' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+					}
 				}
 			}
 		},
