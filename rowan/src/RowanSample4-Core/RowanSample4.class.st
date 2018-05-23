@@ -5,5 +5,5 @@ Class {
 }
 
 { #category : 'accessing' }
-RowanSample1 >> foo [ ^'foo'
+RowanSample4 >> foo [ ^'foo'
 ]
