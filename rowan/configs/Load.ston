@@ -1,5 +1,9 @@
  RwProjectLoadConfiguration{
 	#name : 'Rowan',
+	#definedGroupNames : {
+		'core' : [],
+		'tests' : [ 'core' ]
+		},
 	#conditionalPackages: {
 		[ 'common' ] : {
                         'core': {
@@ -25,15 +29,15 @@
 					},
 			'tests' : {
 				#packageNames : [
-					'RowanSample4-GemStone-Tests'
+					'RowanSample5-GemStone-Tests'
 					],
 				#configurationNames : [ ]
 				}
 			}
 		},
 	#conditionalPackageMapSpecs : {
-		[ 'gemstone' ] : {
-			'default_load' : {
+		'gemstone' : {
+			'default' : {
 				#defaultSymbolDictName : 'RowanSample4SymbolDict',
 				#defaultUseSessionMethodsForExtensions : false,
 				#packageNameToPlatformPropertiesMap : {
