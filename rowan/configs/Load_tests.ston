@@ -1,0 +1,33 @@
+ RwProjectLoadConfiguration{
+	#name : 'Load_tests',
+	#version : '0.1.0',
+	#conditionalPackages: {
+		[ 'common' ] : {
+			'tests' : {
+				#packageNames : [
+					'RowanSample4-Tests'
+					],
+				#configurationNames : [ ]
+				}
+			},
+		[ 'gs3.2.[15-]' ] : {
+			'tests' : {
+				#packageNames : [
+					'RowanSample4-GemStone-Tests'
+					],
+				#configurationNames : [ ]
+				}
+			}
+		},
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'default' : {
+				#packageNameToPlatformPropertiesMap : {
+				'RowanSample4-GemStone-Tests' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+
+					}
+				}
+			}
+		},
+	#comment : 'Configuration for the tests group packages'
+}

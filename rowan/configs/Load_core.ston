@@ -1,0 +1,33 @@
+ RwProjectLoadConfiguration{
+	#name : 'Load_core',
+	#version : '0.1.0',
+	#conditionalPackages: {
+		[ 'common' ] : {
+                        'core': {
+				#packageNames : [
+					'RowanSample4-Core',
+					'RowanSample4-Extensions'
+					],
+				#configurationNames : [ ]
+				}
+			},
+		[ 'gs3.2.[15-]' ] : {
+                        'core': {
+				#packageNames : [
+					'RowanSample4-GemStone'
+					],
+				#configurationNames : [ ]
+				}
+			}
+		},
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'default' : {
+				#packageNameToPlatformPropertiesMap : {
+				'RowanSample4-GemStone' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+					}
+				}
+			}
+		},
+	#comment : 'Configuration for the core group packages'
+}
