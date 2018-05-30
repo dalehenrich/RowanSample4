@@ -6,7 +6,8 @@
                         'core': {
 				#packageNames : [
 					'RowanSample4-Core',
-					'RowanSample4-Extensions'
+					'RowanSample4-Extensions'.
+					'RowanSample4-NewPackage'
 					],
 				#configurationNames : [ ]
 				}
@@ -24,7 +25,8 @@
 		'gemstone' : {
 			'default' : {
 				#packageNameToPlatformPropertiesMap : {
-				'RowanSample4-GemStone' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+				'RowanSample4-GemStone' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' },
+				'RowanSample4-NewPackage' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
 					}
 				}
 			}
