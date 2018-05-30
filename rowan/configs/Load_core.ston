@@ -25,8 +25,7 @@
 		'gemstone' : {
 			'default' : {
 				#packageNameToPlatformPropertiesMap : {
-				'RowanSample4-GemStone' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' },
-				'RowanSample4-NewPackage' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+				'RowanSample4-GemStone' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
 					}
 				}
 			}
