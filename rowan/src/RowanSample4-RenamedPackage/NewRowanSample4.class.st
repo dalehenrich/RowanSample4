@@ -1,7 +1,7 @@
 Class {
 	#name : 'NewRowanSample4',
 	#superclass : 'RowanSample4',
-	#category : 'RowanSample4-NewPackage'
+	#category : 'RowanSample4-RenamedPackage'
 }
 
 { #category : 'accessing' }
