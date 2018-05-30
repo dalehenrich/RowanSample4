@@ -6,7 +6,7 @@
                         'core': {
 				#packageNames : [
 					'RowanSample4-Core',
-					'RowanSample4-Extensions'.
+					'RowanSample4-Extensions,'
 					'RowanSample4-NewPackage'
 					],
 				#configurationNames : [ ]
