@@ -17,5 +17,5 @@
 				}
 			}
 		},
-	#comment : 'top-level config for RowanSample4 project ... core and tests configs'
+	#comment : 'Issue #208 config for RowanSample4 project ... core and tests configs'
 }
