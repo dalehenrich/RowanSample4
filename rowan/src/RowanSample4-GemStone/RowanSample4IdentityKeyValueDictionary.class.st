@@ -5,7 +5,7 @@ Class {
 	#gs_options : [
 		'disallowGciStore'
 	],
-	#category : 'RowanSample4-Core'
+	#category : 'RowanSample4-GemStone'
 }
 
 { #category : 'accessing' }
