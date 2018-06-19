@@ -5,6 +5,9 @@ Class {
 		'instvar1',
 		'instvar2'
 	],
+	#gs_constraints : [
+		[ 'instvar1', 'Integer' ]
+	],
 	#gs_options : [
 		'instancesInvariant'
 	],
