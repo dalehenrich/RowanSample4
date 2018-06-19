@@ -22,6 +22,10 @@ Class {
 		[
 			'instvar3',
 			'Boolean'
+		],
+		[
+			'instvar4',
+			'Array'
 		]
 	],
 	#category : 'RowanSample4-Core'

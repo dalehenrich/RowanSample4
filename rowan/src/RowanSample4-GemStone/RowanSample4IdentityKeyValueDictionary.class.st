@@ -5,6 +5,9 @@ Class {
 	#gs_options : [
 		'disallowGciStore'
 	],
+	#gs_constraints : [
+		'String'
+	],
 	#category : 'RowanSample4-GemStone'
 }
 
