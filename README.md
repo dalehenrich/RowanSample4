@@ -5,3 +5,4 @@
 - issue_185_1 --> issue_185_2	:: rename RowanSample4-NewPackage to RowanSample4-RenamedPackage; move NewRowanSample4 to RowanSample4SymbolDict
 - issue_185_1 --> issue_185_6	:: rename RowanSample4-NewPackage to RowanSample4-RenamedPackage; move new version of NewRowanSample4 to RowanSample4SymbolDict"
 - issue_185_1 --> issue_185_4	:: Simply rename RowanSample4-NewPackage to RowanSample4-RenamedPackage (no symbol dictionary move)
+
