@@ -12,7 +12,7 @@
 	#conditionalPackageMapSpecs : {
 		'gemstone' : {
 			'default' : {
-				#defaultSymbolDictName : 'RowanSample4SymbolDict',
+				#defaultSymbolDictName : 'UserGlobals',
 				#defaultUseSessionMethodsForExtensions : false
 				}
 			}
