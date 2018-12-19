@@ -5,7 +5,7 @@
 		[ 'common' ] : {
 			'tests' : {
 				#packageNames : [
-					'RowanSample4-Tests'
+					'RowanSample4-Tests_295'
 					],
 				#configurationNames : [ ]
 				}
@@ -13,7 +13,7 @@
 		[ 'gs3.2.[15-]' ] : {
 			'tests' : {
 				#packageNames : [
-					'RowanSample4-GemStone-Tests'
+					'RowanSample4-GemStone-Tests_295'
 					],
 				#configurationNames : [ ]
 				}
@@ -23,7 +23,7 @@
 		'gemstone' : {
 			'default' : {
 				#packageNameToPlatformPropertiesMap : {
-				'RowanSample4-GemStone-Tests' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+				'RowanSample4-GemStone-Tests_295' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
 
 					}
 				}

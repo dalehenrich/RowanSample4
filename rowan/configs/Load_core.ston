@@ -5,9 +5,9 @@
 		[ 'common' ] : {
                         'core': {
 				#packageNames : [
-					'RowanSample4-Core',
-					'RowanSample4-Extensions',
-					'RowanSample4-RenamedPackage'
+					'RowanSample4-Core_295',
+					'RowanSample4-Extensions_295',
+					'RowanSample4-RenamedPackage_295'
 					],
 				#configurationNames : [ ]
 				}
@@ -15,7 +15,7 @@
 		[ 'gs3.2.[15-]' ] : {
                         'core': {
 				#packageNames : [
-					'RowanSample4-GemStone'
+					'RowanSample4-GemStone_295'
 					],
 				#configurationNames : [ ]
 				}
@@ -25,7 +25,7 @@
 		'gemstone' : {
 			'default' : {
 				#packageNameToPlatformPropertiesMap : {
-				'RowanSample4-GemStone' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+				'RowanSample4-GemStone_295' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
 					}
 				}
 			}

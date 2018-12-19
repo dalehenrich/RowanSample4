@@ -1,7 +1,7 @@
 Class {
 	#name : 'RowanSample4Test',
 	#superclass : 'TestCase',
-	#category : 'RowanSample4-Tests'
+	#category : 'RowanSample4-Tests_295'
 }
 
 { #category : 'tests' }
