@@ -1,6 +1,11 @@
 Class {
 	#name : 'NewRowanSample4',
 	#superclass : 'RowanSample4',
+	#instVars : [
+		'ivar2',
+		'ivar1',
+		'ivar3',
+],
 	#category : 'RowanSample4-NewPackage'
 }
 
