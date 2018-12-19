@@ -7,7 +7,7 @@
 				#packageNames : [
 					'RowanSample4-Core_295',
 					'RowanSample4-Extensions_295',
-					'RowanSample4-RenamedPackage_295'
+					'RowanSample4-RenamedPackage'
 					],
 				#configurationNames : [ ]
 				}
