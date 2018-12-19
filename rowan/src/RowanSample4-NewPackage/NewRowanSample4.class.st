@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'ivar2',
 		'ivar1',
-		'ivar3',
+		'ivar3'
 ],
 	#category : 'RowanSample4-NewPackage'
 }
