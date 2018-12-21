@@ -7,5 +7,9 @@ Class {
 }
 
 { #category : 'accessing' }
+ NewRowanSampleSubclass4 class>> foo [ ^'foo'
+]
+
+{ #category : 'accessing' }
  NewRowanSampleSubclass4>> foo [ ^'foo'
 ]
