@@ -6,6 +6,3 @@ Class {
 	#category : 'RowanSample4-NewPackage'
 }
 
-{ #category : 'accessing' }
- NewRowanSampleSubclass4>> foo [ ^'foo'
-]
