@@ -10,7 +10,7 @@
 				#configurationNames : [ ]
 				}
 			},
-		[ 'gs3.2.[15-]' ] : {
+		[ 'gs3.[2-]' ] : {
 			'tests' : {
 				#packageNames : [
 					'RowanSample4-GemStone-Tests'
