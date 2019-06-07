@@ -18,6 +18,29 @@ RwProjectLoadConfiguration{
 					'RowanSample4-Tests'
 				]
 			}
+		},
+		[ 'gs3.[2-]' ] : {
+    	'core': {
+				#packageNames : [
+					'RowanSample4-GemStone'
+				],
+				#configurationNames : [ ]
+			},
+			'tests' : {
+				#packageNames : [
+					'RowanSample4-GemStone-Tests'
+					],
+				#configurationNames : [ ]
+			}
+		}
+	},
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'default' : {
+				#packageNameToPlatformPropertiesMap : {
+					'RowanSample4-GemStone' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+				}
+			}
 		}
 	},
 	#comment : 'Platform independent packages, that should always be loaded together.'
