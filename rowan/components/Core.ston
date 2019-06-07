@@ -1,0 +1,26 @@
+RwProjectLoadConfiguration{
+	#name : 'Core',
+	#version : '0.1.0',
+	#definedGroupNames : {
+		'core' : [ ],
+		'tests' : [ 'core' ]
+		},
+	#conditionalPackages : {
+		[ 'common' ] : {
+			'core' : {
+				#packageNames : [
+					'RowanSample4-Core',
+					'RowanSample4-Extensions'
+				]
+			},
+			'tests' : {
+				#packageNames : [
+					'RowanSample4-Tests'
+				]
+			}
+		}
+	},
+	#comment : 'Platform independent packages, that should always be loaded together.'
+}
+
+
