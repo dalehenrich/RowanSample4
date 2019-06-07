@@ -1,0 +1,16 @@
+RwNestedProjectLoadConfiguration {
+	#name : 'Load_gemstone',
+	#version : '0.1.0',
+	#conditionalPackages : {
+		[ 'gs3.[2-]' ] : {
+			'tests' : {
+				#packageNames : [
+					'RowanSample4-GemStone-Tests'
+				]
+			}
+		}
+	},
+	#comment : 'Complicated component scheme: gemstone test packages'
+}
+
+
