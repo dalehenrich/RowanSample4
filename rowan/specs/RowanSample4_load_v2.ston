@@ -7,6 +7,6 @@ RwComponentSpecification{
 	#repoPath : 'rowan/src',
 	#specsPath : 'rowan/specs',
 	#defaultComponentName : 'Load',
-	#defaultGroupNames : [ 'tests' ],
+	#defaultGroupNames : [ 'core' ],
 	#comment : 'component defintions'
 }
