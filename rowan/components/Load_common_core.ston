@@ -17,6 +17,16 @@ RwNestedProjectLoadConfiguration {
 			}
 		}
 	},
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'default' : {
+				#defaultSymbolDictName : 'RowanSample4SymbolDict',
+				#packageNameToPlatformPropertiesMap : {
+					'RowanSample4-NewPackage' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+				}
+			}
+		}
+	},
 	#comment : 'Complicated component scheme: common core packages'
 }
 
