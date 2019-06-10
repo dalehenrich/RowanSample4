@@ -10,6 +10,15 @@ RwNestedProjectLoadConfiguration {
 			}
 		}
 	},
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'default' : {
+				#packageNameToPlatformPropertiesMap : {
+					'RowanSample4-GemStone-Tests' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+				}
+			}
+		}
+	},
 	#comment : 'Complicated component scheme: gemstone test packages'
 }
 
