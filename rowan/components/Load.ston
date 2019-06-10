@@ -15,6 +15,12 @@ RwProjectLoadConfiguration{
 			}
 		}
 	},
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'default' : {
+				#defaultSymbolDictName : 'RowanSample4SymbolDict'				}
+			}
+		},
 	#comment : 'Complicated component scheme'
 }
 
