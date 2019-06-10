@@ -1,0 +1,27 @@
+RwProjectLoadConfiguration{
+	#name : 'Load',
+	#version : '0.1.0',
+	#definedGroupNames : {
+		'core' : [ ],
+		'tests' : [ 'core' ]
+		},
+	#conditionalPackages : {
+		[ 'common' ] : {
+			'core' : {
+				#configurationNames : [ 'Load_common_core' ]
+			},
+			'tests' : {
+				#configurationNames : [ 'Load_common_tests' ]
+			}
+		}
+	},
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'default' : {
+				#defaultSymbolDictName : 'RowanSample4SymbolDict'				}
+			}
+		},
+	#comment : 'Complicated component scheme'
+}
+
+
