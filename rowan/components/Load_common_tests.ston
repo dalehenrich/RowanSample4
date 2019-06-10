@@ -1,0 +1,22 @@
+RwNestedProjectLoadConfiguration {
+	#name : 'Load_common_tests',
+	#version : '0.1.0',
+	#conditionalPackages : {
+		[ 'common' ] : {
+			'tests' : {
+				#packageNames : [
+					'RowanSample4-Tests'
+				],
+				#configurationNames : [ 'Load_common_tests' ]
+			}
+		},
+		[ 'gemstone' ] : {
+			'tests' : {
+				#configurationNames : [ 'Load_gemstone_tests' ]
+			}
+		}
+	},
+	#comment : 'Complicated component scheme: common test packages'
+}
+
+
