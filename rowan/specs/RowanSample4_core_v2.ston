@@ -3,7 +3,7 @@ RwComponentSpecification{
 	#version : '0.3.0',
 	#projectUrl : 'https://github.com/dalehenrich/RowanSample4',
 	#configsPath : 'rowan/components',
-	#projectsPath: 'rowan/projects'
+	#projectsPath: 'rowan/projects',
 	#repoPath : 'rowan/src',
 	#specsPath : 'rowan/specs',
 	#defaultComponentName : 'Load',
