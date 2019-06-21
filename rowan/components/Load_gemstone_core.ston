@@ -1,0 +1,25 @@
+RwNestedProjectLoadConfiguration {
+	#name : 'Load_gemstone_core',
+	#version : '0.1.0',
+	#conditionalPackages : {
+		[ 'gs3.[2-]' ] : {
+    	'core': {
+				#packageNames : [
+					'RowanSample4-GemStone'
+				]
+			}
+		}
+	},
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'default' : {
+				#packageNameToPlatformPropertiesMap : {
+					'RowanSample4-GemStone' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
+				}
+			}
+		}
+	},
+	#comment : 'Complicated component scheme: gemstone core packages'
+}
+
+
