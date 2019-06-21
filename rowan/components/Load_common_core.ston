@@ -1,0 +1,23 @@
+RwNestedProjectLoadConfiguration {
+	#name : 'Load_common_core',
+	#version : '0.1.0',
+	#conditionalPackages : {
+		[ 'common' ] : {
+			'core' : {
+				#packageNames : [
+					'RowanSample4-Core_295',
+					'RowanSample4-Extensions_295',
+					'RowanSample4-RenamedPackage'
+				]
+			}
+		},
+		[ 'gemstone' ] : {
+    	'core': {
+				#configurationNames : [ 'Load_gemstone_core' ]
+			}
+		}
+	},
+	#comment : 'Complicated component scheme: common core packages'
+}
+
+
