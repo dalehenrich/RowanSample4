@@ -2,7 +2,7 @@ RwProjectLoadConfiguration{
 	#name : 'Core',
 	#version : '0.1.0',
 	#definedGroupNames : {
-		'core' : [ ],
+		'core' : [ 'tests' ],
 		'tests' : [ 'core' ]
 		},
 	#conditionalPackages : {
@@ -43,7 +43,7 @@ RwProjectLoadConfiguration{
 			}
 		}
 	},
-	#comment : 'Platform independent packages, that should always be loaded together.'
+	#comment : 'Arrange for core and tests to be loaded by default'
 }
 
 
