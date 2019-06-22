@@ -37,7 +37,6 @@ RwProjectLoadConfiguration{
 	#conditionalPackageMapSpecs : {
 		'gemstone' : {
 			'default' : {
-				#defaultSymbolDictName : 'RowanSample4SymbolDict',
 				#packageNameToPlatformPropertiesMap : {
 					'RowanSample4-GemStone' : { 'symbolDictName' : 'RowanSample4DictionarySymbolDict' }
 				}
