@@ -43,7 +43,7 @@ RwProjectLoadConfiguration{
 			}
 		}
 	},
-	#comment : 'Arrange for core and tests to be loaded by default'
+	#comment : 'Arrange for core and tests to be loaded by default - recursive group reference should be preserved as we need coverage for recursive groups'
 }
 
 
