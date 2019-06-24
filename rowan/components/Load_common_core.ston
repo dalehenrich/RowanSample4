@@ -7,6 +7,9 @@ RwNestedProjectLoadConfiguration {
 				#packageNames : [
 					'RowanSample4-Core',
 					'RowanSample4-Extensions'
+				],
+				#projectNames : [
+					RowanSample3
 				]
 			}
 		},
