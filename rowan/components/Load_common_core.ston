@@ -9,7 +9,7 @@ RwNestedProjectLoadConfiguration {
 					'RowanSample4-Extensions'
 				],
 				#projectNames : [
-					RowanSample3
+					'RowanSample3'
 				]
 			}
 		},
