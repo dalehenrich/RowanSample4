@@ -5,11 +5,11 @@ RwComponentLoadConfiguration {
 		'core' : [ ],
 		'tests' : [ 'core' ]
 		},
+	#projectNames : [ 'RowanSample3' ],
 	#conditionalPackages : {
 		[ 'common' ] : {
 			'core' : {
-				#configurationNames : [ 'Load_common_core' ],
-				#projectNames : [ 'RowanSample3' ]
+				#configurationNames : [ 'Load_common_core' ]
 			},
 			'tests' : {
 				#configurationNames : [ 'Load_common_tests' ]
