@@ -9,7 +9,7 @@ RwComponentSpecification{
 	#projectsPath : 'rowan/projects',
 	#repoPath : 'rowan/src',
 	#specsPath : 'rowan/specs',
-	#defaultConfigurationName : 'Default',
+	#defaultComponentName : 'Default',
 	#defaultGroupName : 'core',
 	#comment : 'Rowan v2.0 specification'
 }
