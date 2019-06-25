@@ -6,7 +6,7 @@ RwComponentSpecification{
 			#committishType : 'branch'
 		},
 	#configsPath : 'rowan/configs',
-	#projects: 'rowan/projects',
+	#projectsPath : 'rowan/projects',
 	#repoPath : 'rowan/src',
 	#specsPath : 'rowan/specs',
 	#defaultConfigurationName : 'Default',
