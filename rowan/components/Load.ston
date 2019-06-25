@@ -1,4 +1,4 @@
-RwProjectLoadConfiguration{
+RwComponentLoadConfiguration {
 	#name : 'Load',
 	#version : '0.1.0',
 	#definedGroupNames : {
@@ -8,7 +8,8 @@ RwProjectLoadConfiguration{
 	#conditionalPackages : {
 		[ 'common' ] : {
 			'core' : {
-				#configurationNames : [ 'Load_common_core' ]
+				#configurationNames : [ 'Load_common_core' ],
+				#projectNames : [ 'RowanSample3' ]
 			},
 			'tests' : {
 				#configurationNames : [ 'Load_common_tests' ]
