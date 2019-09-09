@@ -2,7 +2,7 @@ RwProjectLoadConfiguration{
 	#name : 'Issue_493',
 	#version : '0.1.0',
 	#definedGroupNames : {
-		'core' : [ 'tests' ],
+		'core' : [ '' ],
 		'tests' : [ 'core' ]
 		},
 	#conditionalPackages : {
@@ -43,7 +43,7 @@ RwProjectLoadConfiguration{
 			}
 		}
 	},
-	#comment : 'Arrange for core and tests to be loaded by default - recursive group reference should be preserved as we need coverage for recursive groups'
+	#comment : 'reloading Load.ston without a default symbol dictionary defined'
 }
 
 
