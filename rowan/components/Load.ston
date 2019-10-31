@@ -17,7 +17,7 @@ RwProjectLoadConfiguration{
 	},
 	#conditionalPackageMapSpecs : {
 		'gemstone' : {
-			'allusers' : {
+			'SystemUser' : {
 				#defaultSymbolDictName : 'RowanSample4SymbolDict'				}
 			}
 		},
