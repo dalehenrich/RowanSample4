@@ -2,7 +2,7 @@ RwNestedProjectLoadConfiguration {
 	#name : 'Load_gemstone_core',
 	#version : '0.1.0',
 	#conditionalPackages : {
-		[ 'gs3.2.[15-]' ] : {
+		[ 'gs3.[2-]' ] : {
     	'core': {
 				#packageNames : [
 					'RowanSample4-GemStone'
